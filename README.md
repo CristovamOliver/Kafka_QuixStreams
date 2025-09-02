@@ -6,14 +6,11 @@ Ele coleta dados da API de clima, ("https://api.open-meteo.com/v1/forecast")  en
 
 
 *  Instale as dependências:
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 1 - Send_to_Kafka (gera os dados de clima)
-python main.py
 
 2 - Read_from_Kafka (lê e imprime os dados)
-python main.py
 
 3 - Kafka_processor (converte as temperaturas)
-python main.py
 
